@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background-image: url("../img/IMG_1225.jpg");
+  background-repeat: no-repeat;
+  background-position:  top center;
+  background-size:    cover;  
+
+    opacity: 0.5;
+  height: 50px;
+   color: #263238;
+   
+}
+
+}
+a {
+  display: block;
+  color: #263238;
+  text-decoration: none;
+}
+
+
+/*----------header----------*/
+.logo1 {
+  float: left;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-image: url("../img/IMG_1225.jpg");
+}
+
+.header {
+  height: 80px;
+  background: #DDFFFF;
+  box-shadow: 0 0 2px 0 #9e9e9e;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.header-title {
+  float: left;
+  margin-left: 50px;
+  line-height: 80px;
+}
+.header-nav {
+  float: right;
+  width: 60%;
+}
+.header-nav-list {
+  list-style: none;
+}
+.header-nav-list-item {
+  float: left;
+  width: 12.5%;
+}
+.header-nav-list-item > a {
+  line-height: 80px;
+  text-align: center;
+  font-weight: bold;
+  transition: .3s 0s;
+}
+.header-nav-list-item > a:hover {
+  color: #b71c1c;
+}
+.left-contents{
+  padding-top: 230px;
+  float: left;
+  width: 50%;
+  height: 600px;
+ /* background-color: aqua;*/
+}
+
+.right-contents{
+  padding-top: 230px;
+  float: right;
+  width: 50%;
+  height: 600px;
+ /* background-color: lime;*/
+}
+
+.img-group{
+  width: 480px;
+  margin: 0 auto;
+ /* background-color: orange;*/
+}
+
+h3{
+  text-align: center;
+}
+
+.img-box {
+  width: 150px;
+  height: 150px;
+  background-color: lime;
+  float: left;
+  /*background-image: url(../img/pic1.jpg);*/
+  background-size: cover;
+  background-position: center;
+  margin-left: 15px;
+}
+
+.img-box:first-child{
+  margin-left: 0;
+}
+
+.img-box pic1 {
+  background-image: url
+  
+}
+
+.scr {　
+
+  margin: 0 auto;
+  overflow: scroll; 
+
+  width: 500px;
+  height: 100px;
+  background-color: #99FFCC ;
+}
+
+
+
+
+
+footer{
+
+  padding-top:500px;
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+}
